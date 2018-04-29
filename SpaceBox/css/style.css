@@ -1,0 +1,20 @@
+@font-face {
+	font-family: Open_sansB;
+	src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+@font-face {
+	font-family: Open_sansR;
+	src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face {
+	font-family: PlayB;
+	src: url(../fonts/Play/Play-Bold.ttf);
+}
+@font-face {
+	font-family: PlayR;
+	src: url(../fonts/Play/Play-Regular.ttf);
+}
+body{
+	width: 100%;
+	background: #F3F3F3;
+}
