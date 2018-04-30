@@ -51,7 +51,7 @@ body{
 }
 .content3{
 	margin-top: 70px;
-	width: 1220px;
+	max-width: 1220px;
 	background: #fff;
 	margin-left: auto;
 	margin-right: auto;
@@ -76,4 +76,44 @@ body{
 	margin-left: 24px;
 	float: left;
 	margin-top: 7px;
+}
+.menu_group{
+	float: right;
+	height: 73px;
+	background: #555;
+	margin-right: 73px;
+}
+.menu_obj{
+	background: #fff;
+	width: 73px;
+	cursor: pointer;
+	height: 73px;
+	float: left;
+	transition-duration: 0.4s;
+}
+.menu_obj:hover{
+	background: #f55500;
+}
+.all_svg{
+	background-size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.search_svg{
+	width: 31px;
+	height: 31px;
+	background: url(../img/search.svg);
+	margin-top: 21px;
+}
+.cart_svg{
+	width: 35px;
+	height: 31px;
+	margin-top: 21px;
+	background: url(../img/cart.svg);
+}
+.menu_svg{
+	width: 27px;
+	height: 19px;
+	background: url(../img/menu.svg);
+	margin-top: 27px;
 }
