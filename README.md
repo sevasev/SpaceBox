@@ -1,2 +1,2 @@
 # SpaceBox
-just description
+Our shitty online shop
