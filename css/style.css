@@ -89,31 +89,86 @@ body{
 	cursor: pointer;
 	height: 73px;
 	float: left;
-	transition-duration: 0.4s;
-}
-.menu_obj:hover{
-	background: #f55500;
+	transition-duration: 0.55s;
 }
 .all_svg{
+	position: absolute;
 	background-size: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	background-size: 100%;
+	transition-duration: 0.3s;
 }
 .search_svg{
 	width: 31px;
 	height: 31px;
 	background: url(../img/search.svg);
 	margin-top: 21px;
+	margin-left: 21px;
+}
+.search_svg_active{
+	opacity: 0;
+	background: url(../img/search_active.svg);
+	width: 31px;
+	height: 31px;
+	margin-top: 21px;
+	margin-left: 21px;
+}
+.search:hover .search_svg_active {
+	opacity: 1;
+}
+.search:hover{
+	background: #f55500;
+}
+.search:hover .search_svg {
+	opacity: 0;
 }
 .cart_svg{
 	width: 35px;
 	height: 31px;
 	margin-top: 21px;
+	fill: pink;
+	margin-left: 19px;
 	background: url(../img/cart.svg);
 }
+.cart_svg_active{
+	margin-top: 21px;
+	opacity: 0;
+	margin-left: 19px;
+	background: url(../img/cart_active.svg);
+	width: 35px;
+	height: 31px;
+}
+.cart:hover .cart_svg_active{
+	opacity: 1;
+}
+.cart:hover{
+	background: #f55500;
+}
+.cart:hover .cart_svg{
+	opacity: 0;
+}
 .menu_svg{
+	margin-left: 23px;
 	width: 27px;
 	height: 19px;
 	background: url(../img/menu.svg);
 	margin-top: 27px;
+}
+.menu_svg_active{
+	opacity: 0;
+	margin-left: 23px;
+	width: 27px;
+	margin-top: 27px;
+	height: 19px;
+	background: url(../img/menu_active.svg);
+}
+.menu:hover .menu_svg_active{
+	opacity: 1;
+}
+.menu:hover{
+	background: #f55500;
+}
+.menu:hover .menu_svg{
+	opacity: 0;
 }
